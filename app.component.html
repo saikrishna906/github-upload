@@ -1,0 +1,37 @@
+
+<p>
+  <mat-toolbar color="primary">
+   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
+   [routerLink]="['/home']" routerLinkActive="active-link" >
+    Flight Ticket Booking !
+  </button>
+ 
+  <span class="example-spacer"></span>
+  <p date></p>
+  <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" 
+  [routerLink]="['/booking']"  routerLinkActive="active-link">
+  flights booking 
+</button> -->
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" 
+    [routerLink]="['/flights']"  routerLinkActive="active-link">
+    flights avaliable 
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon"
+        [routerLink]="['/bookingsearch']" routerLinkActive="active-link">
+    Booking search
+ </button>
+</mat-toolbar>
+</p>
+
+
+
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+
+
+    
+  
+
+
+
